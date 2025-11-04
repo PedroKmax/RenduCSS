@@ -1,0 +1,26 @@
+header{
+    background-image: url(image-header.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    li{
+        color: white;
+        text-align: right;
+        display: inline-block;
+        float: right;
+        word-spacing: 6px;
+        letter-spacing: 6px;
+        text-decoration: underline none;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        padding: 100px;
+    }
+    h2{
+        color: white;
+        text-align: center;
+    }
+}
