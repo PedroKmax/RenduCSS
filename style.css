@@ -1,26 +1,72 @@
-header{
-    background-image: url(image-header.png);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+*{
+    margin: 0;
+
 }
-nav{
-    li{
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    background-image: url("image-header.png");
+    height: 150vh;
+    background-size: cover;
+
+   
+}
+ 
+li{ 
+    text-decoration: none;
+    display: inline-block;
+    text-align: right;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+
+    a{
         color: white;
-        text-align: right;
-        display: inline-block;
+        text-decoration: none;
+    }
+     
+  
+}
+ul{
         float: right;
-        word-spacing: 6px;
-        letter-spacing: 6px;
-        text-decoration: underline none;
     }
-    h1{
-        color: white;
-        text-align: center;
-        padding: 100px;
+h1{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font: size 53px;
+    font-style: Medium;
+
+    strong{
+        font-size: 160px;
+        font-family: "DM Sans", sans-serif;
     }
+}
+
+#presentation{
     h2{
-        color: white;
-        text-align: center;
+        font-family: "DM Sans", sans-serif;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 48px;
+        font-weight: 200px;
     }
+    
+    p{
+       font-family: "DM Sans", sans-serif; 
+        font-size: 20px;
+    }
+}
+
+.sectionpadding{
+    padding-block: 120px;
+    padding-inline: 24px;
+} 
+.container{
+    max-width: 1080px;
+    margin:auto;
+}
+
+#hero{
+    width: 100px;
+    margin: auto;
 }
